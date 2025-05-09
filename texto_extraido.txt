@@ -1,0 +1,373 @@
+History of Python - Wikipedia
+Jump to content
+Main menu
+Main menu
+move to sidebar
+hide
+Navigation
+Main pageContentsCurrent eventsRandom articleAbout WikipediaContact us
+Contribute
+HelpLearn to editCommunity portalRecent changesUpload fileSpecial pages
+Search
+Search
+Appearance
+Donate
+Create account
+Log in
+Personal tools
+Donate Create account Log in
+Pages for logged out editors learn more
+ContributionsTalk
+Contents
+move to sidebar
+hide
+(Top)
+1
+Early history
+2
+Version 1
+Toggle Version 1 subsection
+2.1
+BeOpen
+3
+Version 2
+4
+Version 3
+Toggle Version 3 subsection
+4.1
+Compatibility
+4.2
+Features
+5
+Table of versions
+Toggle Table of versions subsection
+5.1
+Support
+6
+See also
+7
+References
+8
+External links
+Toggle the table of contents
+History of Python
+9 languages
+العربيةAzərbaycancaEspañolفارسی한국어РусскийСрпски / srpskiTürkçe中文
+Edit links
+ArticleTalk
+English
+ReadEditView history
+Tools
+Tools
+move to sidebar
+hide
+Actions
+ReadEditView history
+General
+What links hereRelated changesUpload filePermanent linkPage informationCite this pageGet shortened URLDownload QR code
+Print/export
+Download as PDFPrintable version
+In other projects
+Wikidata item
+Appearance
+move to sidebar
+hide
+From Wikipedia, the free encyclopedia
+History of the Python programming language
+This article is missing information about prominent features of versions after 3.0. Please expand the article to include this information. Further details may exist on the talk page. (March 2024)
+Old Python logo, 1990s–2006
+New Python logo, 2006–present
+Guido van Rossum in 2014
+Main article: Python (programming language)
+The programming language Python was conceived in the late 1980s,[1] and its implementation was started in December 1989[2] by Guido van Rossum at CWI in the Netherlands as a successor to ABC capable of exception handling and interfacing with the Amoeba operating system.[3] Van Rossum is Python's principal author, and his continuing central role in deciding the direction of Python is reflected in the title given to him by the Python community, Benevolent Dictator for Life (BDFL).[4][5] (However, Van Rossum stepped down as leader on July 12, 2018.[6]). Python was named after the BBC TV show Monty Python's Flying Circus.[7]
+Python 2.0 was released on October 16, 2000, with many major new features, such as list comprehensions, cycle-detecting garbage collector (in addition to reference counting) and reference counting, for memory management and support for Unicode, along with a change to the development process itself, with a shift to a more transparent and community-backed process.[8]
+Python 3.0, a major, backwards-incompatible release, was released on December 3, 2008[9] after a long period of testing. Many of its major features have also been backported to the backwards-compatible, though now-unsupported, Python 2.6 and 2.7.[10] Releases of Python 3 include the 2to3 utility, which automates the translation of Python 2 code to Python 3.[11]
+Early history[edit]
+In February 1991, Van Rossum published the code (labeled version 0.9.0) to alt.sources.[12][13] Already present at this stage in development were classes with inheritance, exception handling, functions, and the core datatypes of list, dict, str and so on. Also in this initial release was a module system borrowed from Modula-3; Van Rossum describes the module as "one of Python's major programming units".[1] Python's exception model also resembles Modula-3's, with the addition of an else clause.[3] In 1994 comp.lang.python, the primary discussion forum for Python, was formed, marking a milestone in the growth of Python's userbase and popularity.[1]
+Version 1[edit]
+Python reached version 1.0 in January 1994. The major new features included in this release were the functional programming tools lambda, map, filter and reduce. Van Rossum stated that "Python acquired lambda, reduce(), filter() and map(), courtesy of a Lisp hacker who missed them and submitted working patches".[14]
+The last version released while Van Rossum was at CWI was Python 1.2.  In 1995, Van Rossum continued his work on Python at the Corporation for National Research Initiatives (CNRI) in Reston, Virginia from where he released several versions.
+By version 1.4, Python had acquired several new features. Notable among these are the Modula-3 inspired keyword arguments (which are also similar to Common Lisp's keyword arguments) and built-in support for complex numbers. Also included is a basic form of data hiding by name mangling, though this is easily bypassed.[15]
+During Van Rossum's stay at CNRI, he launched the Computer Programming for Everybody (CP4E) initiative, intending to make programming more accessible to more people, with a basic "literacy" in programming languages, similar to the basic English literacy and mathematics skills required by most employers. Python served a central role in this: because of its focus on clean syntax, it was already suitable, and CP4E's goals bore similarities to its predecessor, ABC. The project was funded by DARPA.[16] As of 2007[update], the CP4E project is inactive, and while Python attempts to be easily learnable and not too arcane in its syntax and semantics, outreach to non-programmers is not an active concern.[17]
+BeOpen[edit]
+In 2000, the Python core development team moved to BeOpen.com[18] to form the BeOpen PythonLabs team.[19][20] CNRI requested that a version 1.6 be released, summarizing Python's development up to the point at which the development team left CNRI. Consequently, the release schedules for 1.6 and 2.0 had a significant amount of overlap.[8] Python 2.0 was the only release from BeOpen.com. After Python 2.0 was released by BeOpen.com, Guido van Rossum and the other PythonLabs developers joined Digital Creations.
+The Python 1.6 release included a new CNRI license that was substantially longer than the CWI license that had been used for earlier releases.  The new license included a clause stating that the license was governed by the laws of the State of Virginia.  The Free Software Foundation argued that the choice-of-law clause was incompatible with the GNU General Public License.  BeOpen, CNRI and the FSF negotiated a change to Python's free-software license that would make it GPL-compatible.  Python 1.6.1 is essentially the same as Python 1.6, with a few minor bug fixes, and with the new GPL-compatible license.[21]
+Version 2[edit]
+Python 2.0, released October 2000,[8] introduced list comprehensions, a feature borrowed from the functional programming languages SETL and Haskell. Python's syntax for this construct is very similar to Haskell's, apart from Haskell's preference for punctuation characters and Python's preference for alphabetic keywords. Python 2.0 also introduced a garbage collector able to collect reference cycles.[8]
+Python 2.1 was close to Python 1.6.1, as well as Python 2.0. Its license was renamed Python Software Foundation License. All code, documentation and specifications added, from the time of Python 2.1's alpha release on, is owned by the Python Software Foundation (PSF), a nonprofit organization formed in 2001, modeled after the Apache Software Foundation.[21] The release included a change to the language specification to support nested scopes, like other statically scoped languages.[22] (The feature was turned off by default, and not required, until Python 2.2.)
+Python 2.2 was released in December 2001;[23] a major innovation was the unification of Python's types (types written in C) and classes (types written in Python) into one hierarchy. This single unification made Python's object model purely and consistently object oriented.[24] Also added were generators which were inspired by Icon.[25]
+Historic Python logos used on Windows (left) and the Macintosh (center), and the logo used since version 2.5 (right).
+Python 2.5 was released in September 2006[26] and introduced the with statement, which encloses a code block within a context manager (for example, acquiring a lock before the block of code is run and releasing the lock afterwards, or opening a file and then closing it), allowing resource acquisition is initialization (RAII)-like behavior and replacing a common try/finally idiom.[27]
+Python 2.6 was released to coincide with Python 3.0, and included some features from that release, as well as a "warnings" mode that highlighted the use of features that were removed in Python 3.0.[28][10] Similarly, Python 2.7 coincided with and included features from Python 3.1,[29] which was released on June 26, 2009.
+Parallel 2.x and 3.x releases then ceased, and Python 2.7 was the last release in the 2.x series.[30] In November 2014, it was announced that Python 2.7 would be supported until 2020, but users were encouraged to move to Python 3 as soon as possible.[31] Python 2.7 support ended on January 1, 2020, along with code freeze of 2.7 development branch. A final release, 2.7.18, occurred on April 20, 2020, and included fixes for critical bugs and release blockers.[32] This marked the end-of-life of Python 2.[33]
+Version 3[edit]
+Python 3.0 (also called "Python 3000" or "Py3K") was released on December 3, 2008.[9] It was designed to rectify fundamental design flaws in the language – the changes required could not be implemented while retaining full backwards compatibility with the 2.x series, which necessitated a new major version number.  The guiding principle of Python 3 was: "reduce feature duplication by removing old ways of doing things".[34]
+Python 3.0 was developed with the same philosophy as in prior versions.  However, as Python had accumulated new and redundant ways to program the same task, Python 3.0 had an emphasis on removing duplicative constructs and modules, in keeping with the Zen of Python: "There should be one— and preferably only one —obvious way to do it".
+Nonetheless, Python 3.0 remained a multi-paradigm language.  Coders could still follow object-oriented, structured, and functional programming paradigms, among others, but within such broad choices, the details were intended to be more obvious in Python 3.0 than they were in Python 2.x.
+Compatibility[edit]
+Python 3.0 broke backward compatibility, and much Python 2 code does not run unmodified on Python 3.[35] Python's dynamic typing combined with the plans to change the semantics of certain methods of dictionaries, for example, made perfect mechanical translation from Python 2.x to Python 3.0 very difficult. A tool called "2to3" does the parts of translation that can be done automatically.  At this, 2to3 appeared to be fairly successful, though an early review noted that there were aspects of translation that such a tool would never be able to handle.[36] Prior to the roll-out of Python 3, projects requiring compatibility with both the 2.x and 3.x series were recommended to have one source (for the 2.x series), and produce releases for the Python 3.x platform using 2to3. Edits to the Python 3.x code were discouraged for so long as the code needed to run on Python 2.x.[10]  This is no longer recommended; as of 2012 the preferred approach was to create a single code base that can run under both Python 2 and 3 using compatibility modules.[37]
+Features[edit]
+Some of the major changes included for Python 3.0 were:
+Changing print so that it is a built-in function, not a statement.  This made it easier to change a module to use a different print function, as well as making the syntax more regular.  In Python 2.6 and 2.7 print() is available as a built-in but is masked by the print statement syntax, which can be disabled by entering from __future__ import print_function at the top of the file[38]
+Removal of the Python 2 input function, and the renaming of the raw_input function to input. Python 3's input function behaves like Python 2's raw_input function, in that the input is always returned as a string rather than being evaluated as an expression
+Moving reduce (but not map or filter) out of the built-in namespace and into functools (the rationale being code that uses reduce is less readable than code that uses a for loop and accumulator variable)[39][40]
+Adding support for optional function annotations that can be used for informal type declarations or other purposes[41]
+Unifying the str/unicode types, representing text, and introducing a separate immutable bytes type; and a mostly corresponding mutable bytearray type, both of which represent arrays of bytes[42]
+Removing backward-compatibility features, including old-style classes, string exceptions, and implicit relative imports
+A change in integer division functionality: in Python 2, integer division always returns an integer. For example 5 / 2 is 2; whereas in Python 3, 5 / 2 is 2.5. (In both Python 2 – 2.2 onwards – and Python 3, a separate operator exists to provide the old behavior: 5 // 2 is 2)
+Allowing non-ASCII letters to be used in identifiers,[43] such as in smörgåsbord
+Subsequent releases in the Python 3.x series have included additional, substantial new features; all ongoing development of the language is done in the 3.x series.
+Table of versions[edit]
+Releases before numbered versions:
+Implementation started – December, 1989[2]
+Internal releases at Centrum Wiskunde & Informatica – 1990[2]
+Version
+Latest micro version
+Release date
+End of full support
+End of security fixes
+Old version, not maintained: 0.9
+0.9.9[2]
+1991-02-20[2]
+1993-07-29[a][2]
+Old version, not maintained: 1.0
+1.0.4[2]
+1994-01-26[2]
+1994-07-14[a][2]
+Old version, not maintained: 1.1
+1.1.1[2]
+1994-10-11[2]
+1994-11-10[a][2]
+Old version, not maintained: 1.2
+1995-04-13[2]
+Unsupported
+Old version, not maintained: 1.3
+1995-10-13[2]
+Unsupported
+Old version, not maintained: 1.4
+1996-10-25[2]
+Unsupported
+Old version, not maintained: 1.5
+1.5.2[44]
+1998-01-03[2]
+1999-04-13[a][2]
+Old version, not maintained: 1.6
+1.6.1[44]
+2000-09-05[45]
+2000–09[a][44]
+Old version, not maintained: 2.0
+2.0.1[46]
+2000-10-16[47]
+2001-06-22[a][46]
+Old version, not maintained: 2.1
+2.1.3[46]
+2001-04-15[48]
+2002-04-09[a][46]
+Old version, not maintained: 2.2
+2.2.3[46]
+2001-12-21[49]
+2003-05-30[a][46]
+Old version, not maintained: 2.3
+2.3.7[46]
+2003-06-29[50]
+2008-03-11[a][46]
+Old version, not maintained: 2.4
+2.4.6[46]
+2004-11-30[51]
+2008-12-19[a][46]
+Old version, not maintained: 2.5
+2.5.6[46]
+2006-09-19[52]
+2011-05-26[a][46]
+Old version, not maintained: 2.6
+2.6.9[28]
+2008-10-01[28]
+2010-08-24[b][28]
+2013-10-29[28]
+Old version, not maintained: 2.7
+2.7.18[33]
+2010-07-03[33]
+2020-01-01[c][33]
+Old version, not maintained: 3.0
+3.0.1[46]
+2008-12-03[28]
+2009-06-27[53]
+Old version, not maintained: 3.1
+3.1.5[54]
+2009-06-27[54]
+2011-06-12[55]
+2012-04-06[54]
+Old version, not maintained: 3.2
+3.2.6[56]
+2011-02-20[56]
+2013-05-13[b][56]
+2016-02-20[56]
+Old version, not maintained: 3.3
+3.3.7[57]
+2012-09-29[57]
+2014-03-08[b][57]
+2017-09-29[57]
+Old version, not maintained: 3.4
+3.4.10[58]
+2014-03-16[58]
+2017-08-09[59]
+2019-03-18[a][58]
+Old version, not maintained: 3.5
+3.5.10[60]
+2015-09-13[60]
+2017-08-08[61]
+2020-09-30[60]
+Old version, not maintained: 3.6
+3.6.15[62]
+2016-12-23[62]
+2018-12-24[b][62]
+2021-12-23[62]
+Old version, not maintained: 3.7
+3.7.17[63]
+2018-06-27[63]
+2020-06-27[b][63]
+2023-06-06[63]
+Old version, not maintained: 3.8
+3.8.20[64]
+2019-10-14[64]
+2021-05-03[b][64]
+2024-10-07[64]
+Old version, still maintained: 3.9
+3.9.22[65]
+2020-10-05[65]
+2022-05-17[b][65]
+2025-10[65][66]
+Old version, still maintained: 3.10
+3.10.17[67]
+2021-10-04[67]
+2023-04-05[b][67]
+2026-10[67]
+Old version, still maintained: 3.11
+3.11.12[68]
+2022-10-24[68]
+2024-04-02[b][68]
+2027-10[68]
+Old version, still maintained: 3.12
+3.12.10[69]
+2023-10-02[69]
+2025-04-08[b][69]
+2028-10[69]
+Latest version: 3.13
+3.13.3[70]
+2024-10-07[70]
+2026-05[70]
+2029-10[70]
+Latest preview version: 3.14
+3.14.0b1[71]
+2025-10-07[71]
+2027-05[71]
+2030-10[71]
+Future version: 3.15
+3.15.0a0[72]
+2026-10-01[72]
+2028-05[72]
+2031-10[72]
+Legend:Old version, not maintainedOld version, still maintainedLatest versionLatest preview versionFuture version
+Italics indicates the latest micro version of currently supported versions as of 2025-05-07.
+Table notes:
+^ a b c d e f g h i j k l Date of last micro release.
+^ a b c d e f g h i j Date of last non security only release.
+^ Official support ended on 2020-01-01, but a final release of the code as it appeared on 2020-01-01 was released on 2020-04-20 as version 2.7.18.[33]
+Support[edit]
+See also[edit]
+History of software engineering
+References[edit]
+^ a b c "The Making of Python". Artima Developer. Archived from the original on September 1, 2016. Retrieved March 22, 2007.
+^ a b c d e f g h i j k l m n o p q van Rossum, Guido (January 20, 2009). "A Brief Timeline of Python". Archived from the original on August 25, 2011. Retrieved November 29, 2019.
+^ a b "Why was Python created in the first place?". Python FAQ. Archived from the original on February 23, 2008. Retrieved March 22, 2007.
+^ van Rossum, Guido (July 31, 2008). "Origin of BDFL". Archived from the original on January 16, 2011. Retrieved August 1, 2008.
+^ "Python Creator Scripts Inside Google". www.eweek.com. March 7, 2006. Archived from the original on August 9, 2018. Retrieved May 13, 2008.
+^ Fairchild, Carlie (July 12, 2018). "Guido van Rossum Stepping Down from Role as Python's Benevolent Dictator For Life". Linux Journal. Archived from the original on July 13, 2018. Retrieved July 12, 2018.
+^ "General Python FAQ — Python 3.8.3 documentation". docs.python.org. Archived from the original on October 24, 2012. Retrieved June 4, 2020.
+^ a b c d Kuchling, Andrew M.; Zadka, Moshe. "What's New in Python 2.0". Archived from the original on December 14, 2009. Retrieved March 22, 2007.
+^ a b "Welcome to Python.org". python.org. Archived from the original on June 14, 2020. Retrieved December 27, 2016.
+^ a b c van Rossum, Guido (April 5, 2006). "PEP 3000 – Python 3000". Archived from the original on April 2, 2022. Retrieved December 27, 2016.
+^ "2to3 – Automated Python 2 to 3 code translation". docs.python.org. Archived from the original on June 4, 2020. Retrieved February 2, 2021.
+^ "Python 0.9.1 part 01/21". alt.sources archives. Archived from the original on August 11, 2021. Retrieved August 11, 2021.
+^ "HISTORY". Python source distribution. Python Foundation. Archived from the original on December 1, 2017. Retrieved November 23, 2017.
+^ van Rossum, Guido. "The fate of reduce() in Python 3000". Artima Developer. Archived from the original on April 7, 2007. Retrieved March 22, 2007.
+^ "LJ #37: Python 1.4 Update". Archived from the original on May 1, 2007. Retrieved April 29, 2007.
+^ van Rossum, Guido. "Computer Programming for Everybody". Archived from the original on May 1, 2007. Retrieved March 22, 2007.
+^ "Computer Programming for Everybody". Python Software Foundation. Archived from the original on March 29, 2007. Retrieved March 22, 2007.
+^ "Python Development Team Moves to BeOpen.Com – Slashdot". slashdot.org. Archived from the original on April 12, 2020. Retrieved April 12, 2020.
+^ "Open | Your digital insurance partner". Archived from the original on August 15, 2000.
+^ "Content Management Provider PyBiz Announces Strategic Partnership With BeOpen in Utilizing Python Programming Language" (PDF). Archived (PDF) from the original on April 12, 2020. Retrieved April 12, 2020.
+^ a b "History and License". Python 3 Documentation. Archived from the original on December 5, 2016. Retrieved December 7, 2022.
+^ Hylton, Jeremy (November 1, 2000). "PEP 227 – Statically Nested Scopes". Archived from the original on May 23, 2022. Retrieved March 22, 2007.
+^ "Python 2.2". Python.org. Archived from the original on August 2, 2019. Retrieved December 31, 2019.
+^ Kuchling, Andrew M. (December 21, 2001). "PEPs 252 and 253: Type and Class Changes". What's New in Python 2.2. Python Foundation. Archived from the original on September 17, 2008. Retrieved September 5, 2008.
+^ Schemenauer, Neil; Peters, Tim; Hetland, Magnus (December 21, 2001). "PEP 255 – Simple Generators". Archived from the original on January 31, 2023. Retrieved September 5, 2008.
+^ "Python 2.5 Release". Python.org. Archived from the original on August 4, 2019. Retrieved March 20, 2018.
+^ "Highlights: Python 2.5". Python.org. Archived from the original on August 4, 2019. Retrieved March 20, 2018.
+^ a b c d e f Norwitz, Neal; Warsaw, Barry (June 29, 2006). "PEP 361 – Python 2.6 and 3.0 Release Schedule". Archived from the original on April 12, 2022. Retrieved November 29, 2019.
+^ Kuchling, Andrew M. (July 3, 2010). "What's New in Python 2.7". Archived from the original on June 7, 2012. Retrieved October 7, 2012. Much as Python 2.6 incorporated features from Python 3.0, version 2.7 incorporates some of the new features in Python 3.1. The 2.x series continues to provide tools for migrating to the 3.x series.
+^ Warsaw, Barry (November 9, 2011). "PEP 404 – Python 2.8 Un-release Schedule". Archived from the original on May 23, 2022. Retrieved October 7, 2012.
+^ Gee, Sue (April 14, 2014). "Python 2.7 To Be Maintained Until 2020". i-programmer.info. Archived from the original on May 10, 2016. Retrieved December 27, 2016.
+^ "Commits: python/cpython at 2.7". GitHub. Archived from the original on April 22, 2020. Retrieved April 22, 2020.
+^ a b c d e Peterson, Benjamin (November 3, 2008). "PEP 373 – Python 2.7 Release Schedule". Archived from the original on March 13, 2022. Retrieved April 20, 2020.
+^ "PEP 3100 – Miscellaneous Python 3.0 Plans | peps.python.org". peps.python.org. Archived from the original on May 25, 2022. Retrieved June 2, 2022.
+^ "PEP 3000 – Python 3000 | peps.python.org". peps.python.org. Archived from the original on April 2, 2022. Retrieved June 2, 2022.
+^ Ruby, Sam (September 1, 2007). "2to3". intertwingly.net. Archived from the original on March 24, 2016. Retrieved September 6, 2024.
+^ Coghlan, Alyssa (April 21, 2020). "Python 3 Q & A – Alyssa Coghlan's Python Notes". python-notes.curiousefficiency.org. Retrieved September 6, 2024.
+^ Brandl, Georg (November 19, 2007). "PEP 3105 – Make print a function". Archived from the original on April 2, 2022. Retrieved December 27, 2016.
+^ van Rossum, Guido. "Python 3000 FAQ". artima.com. Archived from the original on November 9, 2020. Retrieved December 27, 2016.
+^ "The fate of reduce() in Python 3000". www.artima.com. Archived from the original on December 18, 2019. Retrieved December 31, 2019.
+^ Winter, Collin; Lownds, Tony (December 2, 2006). "PEP 3107 – Function Annotations". Archived from the original on March 13, 2022. Retrieved December 27, 2016.
+^ van Rossum, Guido (September 26, 2007). "PEP 3137 – Immutable Bytes and Mutable Buffer". Archived from the original on May 23, 2022. Retrieved May 23, 2022.
+^ "PEP 3131 – Supporting Non-ASCII Identifiers | peps.python.org". Python Enhancement Proposals (PEPs). Retrieved July 1, 2024.
+^ a b c "Releases | Python.org". Archived from the original on December 22, 2015. Retrieved November 29, 2019.
+^ Drake, Fred L. Jr. (July 25, 2000). "PEP 160 – Python 1.6 Release Schedule". Archived from the original on May 13, 2022. Retrieved November 29, 2019.
+^ a b c d e f g h i j k l m "Download Python | Python.org". Archived from the original on August 8, 2018. Retrieved November 29, 2019.
+^ Hylton, Jeremy. "PEP 200 – Python 2.0 Release Schedule". Archived from the original on May 18, 2022. Retrieved November 29, 2019.
+^ Hylton, Jeremy (October 16, 2000). "PEP 226 – Python 2.1 Release Schedule". Archived from the original on May 23, 2022. Retrieved November 29, 2019.
+^ Warsaw, Barry; van Rossum, Guido (April 17, 2001). "PEP 251 – Python 2.2 Release Schedule". Archived from the original on May 4, 2022. Retrieved November 29, 2019.
+^ van Rossum, Guido (February 27, 2002). "PEP 283 – Python 2.3 Release Schedule". Archived from the original on April 12, 2022. Retrieved November 29, 2019.
+^ Warsaw, Barry; Hettinger, Raymond; Baxter, Anthony (July 29, 2003). "PEP 320 – Python 2.4 Release Schedule". Archived from the original on May 17, 2022. Retrieved November 29, 2019.
+^ Norwitz, Neal; van Rossum, Guido; Baxter, Anthony (February 7, 2006). "PEP 356 – Python 2.5 Release Schedule". Archived from the original on April 8, 2022. Retrieved November 29, 2019.
+^ "17. Development Cycle — Python Developer's Guide". Archived from the original on January 18, 2023. Retrieved November 29, 2019.
+^ a b c Peterson, Benjamin (February 8, 2009). "PEP 375 – Python 3.1 Release Schedule". Archived from the original on April 19, 2022. Retrieved November 29, 2019.
+^ Peterson, Benjamin (June 12, 2011). "[RELEASED] Python 3.1.4". python-announce (Mailing list). Archived from the original on December 6, 2021. Retrieved November 29, 2019.
+^ a b c d Brandl, Georg (December 30, 2009). "PEP 392 – Python 3.2 Release Schedule". Archived from the original on April 19, 2022. Retrieved November 29, 2019.
+^ a b c d Brandl, Georg (March 23, 2011). "PEP 398 – Python 3.3 Release Schedule". Archived from the original on April 12, 2022. Retrieved November 29, 2019.
+^ a b c Hastings, Larry (October 17, 2012). "PEP 429 – Python 3.4 Release Schedule". Archived from the original on April 12, 2022. Retrieved November 29, 2019.
+^ Hastings, Larry (August 9, 2017). "[RELEASED] Python 3.4.7 is now available". python-announce (Mailing list). Archived from the original on December 6, 2021. Retrieved November 29, 2019.
+^ a b c Hastings, Larry (September 22, 2014). "PEP 478 – Python 3.5 Release Schedule". Archived from the original on April 12, 2022. Retrieved March 17, 2020.
+^ Hastings, Larry (August 8, 2017). "[RELEASED] Python 3.5.4 is now available". python-announce (Mailing list). Archived from the original on December 6, 2021. Retrieved November 29, 2019.
+^ a b c d Deily, Ned (May 30, 2015). "PEP 494 – Python 3.6 Release Schedule". Archived from the original on May 23, 2022. Retrieved May 23, 2022.
+^ a b c d Deily, Ned (December 23, 2016). "PEP 537 – Python 3.7 Release Schedule". Archived from the original on July 16, 2023. Retrieved July 16, 2023.
+^ a b c d Langa, Łukasz (January 27, 2018). "PEP 569 – Python 3.8 Release Schedule". Archived from the original on July 16, 2023. Retrieved July 16, 2023.
+^ a b c d Langa, Łukasz (October 13, 2020). "PEP 596 – Python 3.9 Release Schedule". Archived from the original on November 12, 2022. Retrieved December 7, 2022.
+^ Langa, Łukasz (June 4, 2019). "PEP 602 – Annual Release Cycle for Python". Archived from the original on July 16, 2023. Retrieved July 16, 2023.
+^ a b c d Salgado, Pablo (May 25, 2020). "PEP 619 – Python 3.10 Release Schedule". Archived from the original on July 16, 2023. Retrieved July 16, 2023.
+^ a b c d Salgado, Pablo (July 12, 2021). "PEP 664 – Python 3.11 Release Schedule". Archived from the original on July 16, 2023. Retrieved July 16, 2023.
+^ a b c d Wouters, Thomas (May 24, 2022). "PEP 693 – Python 3.12 Release Schedule". Archived from the original on July 16, 2023. Retrieved July 16, 2023.
+^ a b c d Wouters, Thomas (May 26, 2023). "PEP 719 – Python 3.13 Release Schedule". Archived from the original on July 16, 2023. Retrieved July 16, 2023.
+^ a b c d van Kemenade, Hugo (April 24, 2024). "PEP 745 – Python 3.14 Release Schedule". Python Enhancement Proposals (PEPs). Retrieved May 7, 2025.{{cite web}}:  CS1 maint: url-status (link)
+^ a b c d van Kemenade, Hugo (April 26, 2025). "PEP 790 – Python 3.15 Release Schedule". Python Enhancement Proposals (PEPs). Retrieved May 7, 2025.
+External links[edit]
+Guido Van Rossum blog on Python's History
+Retrieved from "https://en.wikipedia.org/w/index.php?title=History_of_Python&oldid=1289344428"
+Categories: History of softwarePython (programming language)Software version historiesHidden categories: Pages using the EasyTimeline extensionCS1 maint: url-statusArticles with short descriptionShort description is different from WikidataUse mdy dates from September 2015Use American English from May 2024All Wikipedia articles written in American EnglishArticles to be expanded from March 2024Articles containing potentially dated statements from 2007All articles containing potentially dated statementsPages using multiple image with auto scaled imagesWikipedia articles scheduled for update tagging
+This page was last edited on 8 May 2025, at 01:03 (UTC).
+Text is available under the Creative Commons Attribution-ShareAlike 4.0 License;
+additional terms may apply. By using this site, you agree to the Terms of Use and Privacy Policy. Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organization.
+Privacy policy
+About Wikipedia
+Disclaimers
+Contact Wikipedia
+Code of Conduct
+Developers
+Statistics
+Cookie statement
+Mobile view
+Search
+Search
+Toggle the table of contents
+History of Python
+9 languages
+Add topic
